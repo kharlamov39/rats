@@ -1,5 +1,5 @@
 // src/components/SwiperComponent.js
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Импортируйте стили Swiper
@@ -10,6 +10,14 @@ import 'swiper/css/autoplay';
 
 // Импортируйте модули Swiper
 import { Pagination, Navigation, Autoplay } from 'swiper/modules';
+import img1 from '../assets/images/1.jpg';
+import img2 from '../assets/images/2.jpg';
+import img3 from '../assets/images/3.jpg';
+import img4 from '../assets/images/4.jpg';
+import img5 from '../assets/images/5.jpg';
+import img6 from '../assets/images/6.jpg';
+import img7 from '../assets/images/7.jpg';
+import img8 from '../assets/images/8.jpg';
 
 
 
@@ -44,43 +52,43 @@ const SwiperComponent = () => {
       >
         <div>
             <SwiperSlide>
-              <a data-fancybox="gallery" href="/images/1.jpg" >
-                <img src="/images/1.jpg" />
+              <a data-fancybox="gallery" href={img1} >
+                <img src={img1} />
               </a>
             </SwiperSlide>
             <SwiperSlide>
-              <a data-fancybox="gallery" href="/images/2.jpg" >
-                <img src="/images/2.jpg" />
+              <a data-fancybox="gallery" href={img2} >
+                <img src={img2} />
               </a>
             </SwiperSlide>
             <SwiperSlide>
-              <a data-fancybox="gallery" href="/images/3.jpg" >
-                <img src="/images/3.jpg" />
+              <a data-fancybox="gallery" href={img3} >
+                <img src={img3} />
               </a>
             </SwiperSlide>
             <SwiperSlide>
-              <a data-fancybox="gallery" href="/images/4.jpg" >
-                <img src="/images/4.jpg" />
+              <a data-fancybox="gallery" href={img4} >
+                <img src={img4} />
               </a>
             </SwiperSlide>
             <SwiperSlide>
-              <a data-fancybox="gallery" href="/images/5.jpg" >
-                <img src="/images/5.jpg" />
+              <a data-fancybox="gallery" href={img5} >
+                <img src={img5} />
               </a>
             </SwiperSlide>
             <SwiperSlide>
-              <a data-fancybox="gallery" href="/images/6.jpg" >
-                <img src="/images/6.jpg" />
+              <a data-fancybox="gallery" href={img6} >
+                <img src={img6} />
               </a>
             </SwiperSlide>
             <SwiperSlide>
-              <a data-fancybox="gallery" href="/images/7.jpg" >
-                <img src="/images/7.jpg" />
+              <a data-fancybox="gallery" href={img7} >
+                <img src={img7} />
               </a>
             </SwiperSlide>
             <SwiperSlide>
-              <a data-fancybox="gallery" href="/images/8.jpg" >
-                <img src="/images/8.jpg" />
+              <a data-fancybox="gallery" href={img8} >
+                <img src={img8} />
               </a>
             </SwiperSlide>
          

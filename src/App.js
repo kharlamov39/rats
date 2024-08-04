@@ -10,7 +10,6 @@ const App = () => {
       <Fancybox>
         <SwiperComponent />
       </Fancybox>
-      <h1>HELLO</h1>
     </div>
   );
 }
